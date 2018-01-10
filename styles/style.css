@@ -1,5 +1,5 @@
 body {
-	font-family: 'MaisonNeue-Book', sans-serif;
+	font-family: sans-serif;
 }
 
 section {
@@ -17,20 +17,17 @@ footer {
 nav {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	width: calc(100% + 1em);
 }
-nav > div {
+nav > a {
 	background-color: #EFFAEE;
 	flex-basis: calc(33.33% - 3em);
 	padding: 1em 1em 0 1em;
 	margin-bottom: 1em;
 	margin-right: 1em;
 }
-nav > div:nth-of-type(3n+0) {
-	margin-right: 0;
-}
 
-nav > div > img {
+nav > a > img {
 	display: block;
 	max-width: 100%
 }
