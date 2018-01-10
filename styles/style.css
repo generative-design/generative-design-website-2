@@ -2,6 +2,50 @@ body {
 	font-family: sans-serif;
 }
 
+header {
+	height: 200px;
+	background-color: darkcyan;
+	/* background-color: #EFFAEE; */
+}
+
+.title {
+	padding-top: 0.5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title__text {
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #6BE582;
+}
+.title__nav {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.lang-switch span {
+	font-weight: bold;
+}
+.lang-switch span:hover,
+.lang-switch--current {
+	color: #6BE582;
+	cursor: pointer;
+}
+
+.links {
+	display: flex;
+	margin-left: 1em;
+}
+.links > a {
+	width: 1.75em;
+	fill: currentColor;
+}
+.links > a:hover {
+	fill: #6BE582;
+}
+
 section {
 	max-width: 740px;
 	margin: 0 auto;
