@@ -54,8 +54,23 @@ section {
 footer {
 	background-color: #6BE582;
 	color: #fff;
-	height: 8em;
 	padding: 2em;
+}
+footer strong {
+	display: block;
+	margin-bottom: 1em;
+}
+footer div {
+	column-count: 2;
+}
+footer div p {
+	line-height: 1.25;
+	font-size: 0.75em;
+	margin-top: 0;
+}
+footer div p a {
+	color: #EFFAEE;
+	text-decoration: underline;
 }
 
 nav {
@@ -74,10 +89,6 @@ nav > a {
 nav > a > img {
 	display: block;
 	max-width: 100%
-}
-
-p {
-	margin: 0 0.5em;
 }
 
 h2 {
@@ -104,6 +115,9 @@ a {
 .intro {
 	margin-top: 2em;
 	margin-bottom: 4em;
+}
+.intro p {
+	margin: 0 0.5em;
 }
 .intro > p:first-of-type {
 	font-size: 1.5em;
