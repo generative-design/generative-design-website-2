@@ -56,19 +56,19 @@ footer {
 	color: #fff;
 	padding: 2em;
 }
-footer strong {
+.impressum-title {
 	display: block;
 	margin-bottom: 1em;
 }
-footer div {
+.impressum-list {
 	column-count: 2;
 }
-footer div p {
+.impressum-list p {
 	line-height: 1.25;
 	font-size: 0.75em;
 	margin-top: 0;
 }
-footer div p a {
+.impressum-list a {
 	color: #EFFAEE;
 	text-decoration: underline;
 }
@@ -130,9 +130,11 @@ a {
 }
 
 .contact-list {
-	display: flex;
-	justify-content: space-between;
+	column-count: 2;
 	margin-bottom: 2em;
+}
+.contact-list > span {
+	margin-top: 0;
 }
 
 .btn--download,
