@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 }
@@ -78,18 +82,24 @@ nav {
 	flex-wrap: wrap;
 	width: calc(100% + 1em);
 }
-nav > a {
+.sketch {
+	display: inline-flex;
+	flex-direction: column;
 	background-color: #EFFAEE;
-	flex-basis: calc(33.33% - 3em);
+	flex-basis: calc(33.33% - 1em);
 	padding: 1em 1em 0 1em;
 	margin-bottom: 1em;
 	margin-right: 1em;
 }
-
-nav > a > img {
+.sketch__img {
+	background-color: #fff;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+.sketch__img img {
 	display: block;
 	max-width: 100%;
-	background-color: #fff;
 }
 
 h2 {
