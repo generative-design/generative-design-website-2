@@ -1,5 +1,5 @@
 body {
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 	align-items: center;
 }
 .title__text {
-	font-weight: bold;
+	font-weight: 600;
 	font-size: 2.5em;
 	color: #6BE582;
 }
@@ -26,7 +26,7 @@ header {
 }
 
 .lang-switch span {
-	font-weight: bold;
+	font-weight: 600;
 }
 .lang-switch span:hover,
 .lang-switch--current {
@@ -88,14 +88,15 @@ nav > a {
 
 nav > a > img {
 	display: block;
-	max-width: 100%
+	max-width: 100%;
+	background-color: #fff;
 }
 
 h2 {
 	margin: 0.5em 0.25em;
 	color: #6BE582;
 	font-size: 2.5em;
-	font-weight: 100;
+	font-weight: 400;
 }
 
 h3 {
@@ -122,7 +123,6 @@ a {
 .intro > p:first-of-type {
 	font-size: 1.5em;
 	line-height: 1.8em;
-	font-weight: 100;
 }
 
 .contact-title {
