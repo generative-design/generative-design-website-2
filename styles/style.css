@@ -19,6 +19,13 @@ header {
 	width: 100%;
 	left: 0;
 }
+.title--fixed {
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+	border-bottom: 2px solid #EFFAEE;
+	z-index: 1;
+}
 .title__inner {
 	display: flex;
 	flex-wrap: wrap;
@@ -38,6 +45,9 @@ header {
 	align-items: center;
 	color: #fff;
 }
+.title--fixed .title__nav {
+	color: #000;
+}
 
 .lang-switch {
 	margin-right: 1em;
@@ -53,13 +63,17 @@ header {
 
 .links {
 	display: flex;
+	font-weight: 600;
 }
-.links > a {
-	width: 1.75em;
+.links > a:not(:first-of-type) {
+	margin-left: 0.5em;
+}
+.links > a > svg {
+	width: 2em;
 	fill: currentColor;
 }
 .links > a:hover {
-	fill: #6BE582;
+	color: #6BE582;
 }
 
 .slides {
@@ -251,8 +265,16 @@ a {
 		font-size: 0.75em;
 	}
 
+	.title__text {
+		flex-basis: 100%;
+	}
+
 	.links > a {
-		width: 3em;
+		font-size: 1.5em;
+	}
+
+	.links > a > svg {
+		width: 2.5em;
 	}
 
 	.slides {
