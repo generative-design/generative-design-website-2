@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 }
 
+html,
 body {
 	font-family: 'Poppins', sans-serif;
 }
@@ -20,6 +21,7 @@ header {
 }
 .title__inner {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1em;
@@ -37,6 +39,9 @@ header {
 	color: #fff;
 }
 
+.lang-switch {
+	margin-right: 1em;
+}
 .lang-switch span {
 	font-weight: 600;
 }
@@ -48,7 +53,6 @@ header {
 
 .links {
 	display: flex;
-	margin-left: 1em;
 }
 .links > a {
 	width: 1.75em;
@@ -60,7 +64,7 @@ header {
 
 .slides {
 	position: relative;
-	height: 500px;
+	height: 32rem;
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
@@ -101,7 +105,9 @@ header {
 	width: inherit;
 	height: inherit;
 	top: 0;
-	padding: 2em 1em;
+	padding: 5rem 1rem;
+	display: flex;
+	align-items: center;
 }
 .slide__link::after {
 	content: '';
@@ -126,11 +132,12 @@ section {
 footer {
 	background-color: #6BE582;
 	color: #fff;
-	padding: 2em;
+	padding: 3em 1em;
 }
 .impressum-title {
 	display: block;
 	margin-bottom: 1em;
+	font-size: 1.4em;
 }
 .impressum-list {
 	column-count: 2;
@@ -139,6 +146,7 @@ footer {
 	line-height: 1.25;
 	font-size: 0.75em;
 	margin-top: 0;
+	line-height: 1.5;
 }
 .impressum-list a {
 	color: #EFFAEE;
@@ -193,7 +201,7 @@ a {
 
 .intro {
 	margin-top: 2em;
-	margin-bottom: 4em;
+	margin-bottom: 2em;
 }
 .intro p {
 	margin: 0 0.5em;
@@ -204,12 +212,12 @@ a {
 }
 
 .contact-title {
-	margin: 1em 0 0.5em 0;
+	margin: 1em 0.5rem 0.5em 0.5rem;
 }
 
 .contact-list {
 	column-count: 2;
-	margin-bottom: 2em;
+	margin: 0 0.5rem 2.5em 0.5rem;
 }
 .contact-list > span {
 	margin-top: 0;
@@ -223,15 +231,46 @@ a {
 	margin: 1em 0;
 	white-space: nowrap;
 }
-
-.btn--link::before {
-	content: url('arrow.svg');
-	width: 2em;
-	margin-right: 0.5em;
-}
+.btn--link::before,
 .btn--download::before {
 	content: url('arrow.svg');
 	min-width: 2em;
-	transform: rotate(90deg);
 	margin-right: 0.5em;
+}
+.btn--download::before {
+	transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 480px) {
+	html,
+	body {
+		font-size: 12px;
+	}
+
+	header {
+		font-size: 0.75em;
+	}
+
+	.links > a {
+		width: 3em;
+	}
+
+	.slides {
+		height: 24rem;
+	}
+
+	.sketch {
+		flex-basis: calc(50% - 1em);
+	}
+
+	.contact-list {
+		column-count: 1;
+	}
+
+	.impressum-list {
+		column-count: 1;
+	}
+	.impressum-list p {
+		font-size: 1em;
+	}
 }
