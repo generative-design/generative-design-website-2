@@ -23,8 +23,9 @@ header {
 	position: fixed;
 	background-color: #fff;
 	width: 100%;
-	border-bottom: 2px solid #EFFAEE;
+	max-width: inherit;
 	z-index: 1;
+	border-bottom: 2px solid #EFFAEE;
 }
 .title__inner {
 	display: flex;
@@ -66,7 +67,7 @@ header {
 	font-weight: 600;
 }
 .links > a:not(:first-of-type) {
-	margin-left: 0.5em;
+	margin-left: 1em;
 }
 .links > a > svg {
 	width: 2em;
@@ -267,6 +268,10 @@ a {
 
 	.title__text {
 		flex-basis: 100%;
+	}
+
+	.links > a:not(:first-of-type) {
+		margin-left: 0.5em;
 	}
 
 	.links > a {
