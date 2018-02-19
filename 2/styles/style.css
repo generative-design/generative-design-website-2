@@ -110,8 +110,8 @@ header {
 	width: inherit;
 	height: inherit;
 	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-size: contain;
+	background-repeat: repeat-x;
 	position: absolute;
 	z-index: -1;
 }
