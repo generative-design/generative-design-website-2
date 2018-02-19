@@ -244,6 +244,9 @@ a {
 .contact-list > span {
 	margin-top: 0;
 }
+.contact-list > span:first-of-type {
+	column-span: all;
+}
 
 .btn--download,
 .btn--link {
