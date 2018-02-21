@@ -5,6 +5,7 @@
 html,
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #3c3c3b;
 }
 
 header {
@@ -49,7 +50,7 @@ header {
 	color: #fff;
 }
 .title--fixed .title__nav {
-	color: #000;
+	color: #3c3c3b;
 }
 
 .lang-switch {
@@ -210,9 +211,9 @@ h3 {
 	background-color: #0fe976;
 	color: #fff;
 	margin-top: 0;
-	padding: 0 1em;
-	line-height: 1.8em;
-	font-size: 1em;
+	padding: 0 0.8em;
+	line-height: 1.2em;
+	font-size: 1.2em;
 }
 
 a {
@@ -228,8 +229,8 @@ a {
 	margin: 0 0.5em;
 }
 .intro > p:first-of-type {
-	font-size: 1.5em;
-	line-height: 1.8em;
+	font-size: 1.8em;
+	line-height: 1.6em;
 }
 
 .contact-title {
