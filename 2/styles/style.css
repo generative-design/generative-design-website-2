@@ -9,7 +9,7 @@ body {
 
 header {
 	position: relative;
-	background-color: #EFFAEE;
+	background-color: rgba(15, 233, 118, 0.1);
 	max-width: 1228px;
 	margin: 0 auto;
 	z-index: 1;
@@ -27,7 +27,7 @@ header {
 	width: 100%;
 	max-width: inherit;
 	z-index: 0;
-	border-bottom: 2px solid #EFFAEE;
+	border-bottom: 2px solid rgba(15, 233, 118, 0.1);
 }
 .title__inner {
 	display: flex;
@@ -40,7 +40,7 @@ header {
 .title__text {
 	font-weight: 600;
 	font-size: 2.5em;
-	color: #6BE582;
+	color: #0fe976;
 	white-space: nowrap;
 }
 .title__nav {
@@ -60,7 +60,7 @@ header {
 }
 .lang-switch span:hover,
 .lang-switch--current {
-	color: #6BE582;
+	color: #0fe976;
 	cursor: pointer;
 }
 
@@ -76,7 +76,7 @@ header {
 	fill: currentColor;
 }
 .links > a:hover {
-	color: #6BE582;
+	color: #0fe976;
 }
 
 .slides {
@@ -85,7 +85,7 @@ header {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
-	background-color: #6BE582;
+	background-color: #0fe976;
 }
 .slide {
 	position: absolute;
@@ -147,7 +147,7 @@ section {
 }
 
 footer {
-	background-color: #6BE582;
+	background-color: #0fe976;
 	color: #fff;
 	padding: 3em 1em;
 }
@@ -166,7 +166,6 @@ footer {
 	line-height: 1.5;
 }
 .impressum-list a {
-	color: #EFFAEE;
 	text-decoration: underline;
 }
 
@@ -176,7 +175,7 @@ nav {
 	width: calc(100% + 1em);
 }
 .sketch {
-	background-color: #EFFAEE;
+	background-color: rgba(15, 233, 118, 0.1);
 	flex-basis: calc(33.33% - 1em);
 	padding: 1em 1em 0 1em;
 	margin-bottom: 1em;
@@ -202,13 +201,13 @@ nav {
 
 h2 {
 	margin: 0.5em 0.25em;
-	color: #6BE582;
+	color: #0fe976;
 	font-size: 2.5em;
 	font-weight: 400;
 }
 
 h3 {
-	background-color: #6BE582;
+	background-color: #0fe976;
 	color: #fff;
 	margin-top: 0;
 	padding: 0 1em;
