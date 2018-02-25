@@ -1,5 +1,8 @@
 var currentLocale = navigator.browserLanguage || navigator.language;
 
+// List of strings to replace for each locale. For expanding the localisation,
+// add the attribute data-i18n="example" to the relevant HTML tag and add  a
+// key 'example' with a value to each locale that needs to be localised below.
 var textReplacements = {
     de: {
         'title': 'Generative Gestaltung',
