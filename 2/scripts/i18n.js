@@ -4,15 +4,15 @@ var textReplacements = {
     de: {
         'title': 'Generative Gestaltung',
         'intro': 'Diese Website ergänzt das Buch »Generative Gestaltung, Creative Coding im Web« (erschienen im Verlag Hermann Schmidt, 2018) und bietet direkten Zugriff auf alle Quellcodes der im Buch beschriebenen Programme.',
-        'slide-book-store-link-herman-schmidt-verlag': 'Buch kaufen @ Herman Schmidt Verlag',
-        'slide-book-store-link-amazon-de': 'Buch kaufen @ Amazon Deutschland',
+        'slide-book-store-link-herman-schmidt-verlag': 'Buch kaufen<br>@ Herman Schmidt Verlag',
+        'slide-book-store-link-amazon-de': 'Buch kaufen<br>@ Amazon Deutschland',
         'imprint-title': 'Impressum'
     },
     en: {
         'title': 'Generative Design',
         'intro': '<em>Generative Design: Visualize, Program, and Create with JavaScript in p5.js. Will be available in October 2018 from Princeton Architectural Press!</em><br><br>Hello and welcome to Generative Design, Creative Coding on the Web. Here, you will find all of the sketches from the book and their associated code. Run the sketches directly in the browser with the p5.js-web-editor or locally on your machine by downloading the code package below.',
-        'slide-book-store-link-herman-schmidt-verlag': 'Order now @ Herman Schmidt Verlag',
-        'slide-book-store-link-amazon-de': 'Order now @ Amazon.de',
+        'slide-book-store-link-herman-schmidt-verlag': 'Order now<br>@ Herman Schmidt Verlag',
+        'slide-book-store-link-amazon-de': 'Order now<br>@ Amazon.de',
         'imprint-title': 'Imprint'
     }
 };

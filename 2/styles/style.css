@@ -74,6 +74,7 @@ header {
 }
 .links > a > svg {
 	width: 2em;
+	height: 2em;
 	fill: currentColor;
 }
 .links > a:hover {
@@ -117,7 +118,7 @@ header {
 	z-index: -1;
 }
 .slide__link {
-	font-size: 4em;
+	font-size: 4.5em;
 	color: white;
 	position: absolute;
 	width: inherit;
@@ -266,7 +267,7 @@ a {
 	transform: rotate(90deg);
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
 	html,
 	body {
 		font-size: 12px;
@@ -290,10 +291,15 @@ a {
 
 	.links > a > svg {
 		width: 2.5em;
+		height: 2.5em;
 	}
 
 	.slides {
 		height: 24rem;
+	}
+
+	.slide__link {
+		font-size: 4em;
 	}
 
 	.sketch {
