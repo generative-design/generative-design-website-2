@@ -60,7 +60,7 @@ header {
 	font-weight: 600;
 }
 .lang-switch span:hover,
-.lang-switch--current {
+.lang-switch span[data-lang-current] {
 	color: #0fe976;
 	cursor: pointer;
 }
