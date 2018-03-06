@@ -300,6 +300,7 @@ a {
 .btn--download::before {
 	content: url('arrow.svg');
 	min-width: 2em;
+	width: 2em;
 	margin-right: 0.5em;
 }
 .btn--download::before {
