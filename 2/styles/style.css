@@ -4,7 +4,7 @@
 
 html,
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Arimo', sans-serif;
 	color: #3c3c3b;
 }
 
@@ -39,7 +39,7 @@ header {
 	max-width: 1228px;
 }
 .title__text {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 2.5em;
 	color: #0fe976;
 	white-space: nowrap;
@@ -68,7 +68,7 @@ header {
 	margin-right: 1em;
 }
 .lang-switch span {
-	font-weight: 600;
+	font-weight: 700;
 }
 .lang-switch span:hover,
 .lang-switch span[data-lang-current] {
@@ -78,7 +78,7 @@ header {
 
 .links {
 	display: flex;
-	font-weight: 600;
+	font-weight: 700;
 	justify-content: flex-start;
 }
 .title__nav.links > a:not(:first-of-type) {
@@ -292,7 +292,7 @@ a {
 .btn--link {
 	display: flex;
 	align-items: center;
-	font-weight: 600;
+	font-weight: 700;
 	margin: 1em 0;
 	white-space: nowrap;
 }
