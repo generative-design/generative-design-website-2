@@ -21,7 +21,7 @@ var textReplacements = {
     },
     en: {
         'title': 'Generative Design',
-        'intro': '<em>Generative Design: Visualize, Program, and Create with JavaScript in p5.js. Will be available in October 2018 from Princeton Architectural Press!</em><br><br>Hello and welcome to Generative Design, Creative Coding on the Web. Here, you will find all of the sketches from the book and their associated code. Run the sketches directly in the browser with the p5.js-web-editor or locally on your machine by downloading the code package below.',
+        'intro': '<aside>Generative Design: Visualize, Program, and Create with JavaScript in p5.js. Will be available in October 2018 from Princeton Architectural Press!</aside>Hello and welcome to Generative Design, Creative Coding on the Web. Here, you will find all of the sketches from the book and their associated code. Run the sketches directly in the browser with the p5.js-web-editor or locally on your machine by downloading the code package below.',
         'slide-book-store-link-herman-schmidt-verlag': 'Order now<br>@ Herman Schmidt Verlag',
         'slide-book-store-link-amazon-de': 'Order now<br>@ Amazon.de',
         'p-1-color': 'P.1. Color',
