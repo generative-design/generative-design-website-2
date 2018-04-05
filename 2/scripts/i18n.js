@@ -17,11 +17,12 @@ var textReplacements = {
         'm-2-oscillation-figures': 'M.2. Schwingungsfiguren',
         'm-5-data-trees': 'M.5. Baumdiagramme',
         'm-6-dynamic-data-structure': 'M.6. Dynamische Datenstrukturen',
-        'imprint-title': 'Impressum'
+        'imprint-title': 'Impressum',
+        'download-toc' : 'Inhaltsverzeichnis'
     },
     en: {
         'title': 'Generative Design',
-        'intro': '<aside>Generative Design: Visualize, Program, and Create with JavaScript in p5.js. Will be available in October 2018 from Princeton Architectural Press!</aside>Hello and welcome to Generative Design, Creative Coding on the Web. Here, you will find all of the sketches from the book and their associated code. Run the sketches directly in the browser with the p5.js-web-editor or locally on your machine by downloading the code package below.',
+        'intro': '<aside>👉 Generative Design: Visualize, Program, and Create with JavaScript in p5.js. Will be available in October 2018 from Princeton Architectural Press!</aside>Hello and welcome to Generative Design, Creative Coding on the Web. Here, you will find all of the sketches from the book and their associated code. Run the sketches directly in the browser with the p5.js-web-editor or locally on your machine by downloading the code package below.',
         'slide-book-store-link-herman-schmidt-verlag': 'Order now<br>@ Herman Schmidt Verlag',
         'slide-book-store-link-amazon-de': 'Order now<br>@ Amazon.de',
         'p-1-color': 'P.1. Color',
@@ -32,7 +33,8 @@ var textReplacements = {
         'm-2-oscillation-figures': 'M.2. Oscillation figures',
         'm-5-data-trees': 'M.5. Data trees',
         'm-6-dynamic-data-structure': 'M.6. Dynamic data structure',
-        'imprint-title': 'Imprint'
+        'imprint-title': 'Imprint',
+        'download-toc' : 'Table of Contents'
     }
 };
 
