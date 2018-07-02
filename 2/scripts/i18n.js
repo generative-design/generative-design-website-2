@@ -4,7 +4,7 @@ var currentLocale = navigator.browserLanguage || navigator.language;
 // add the attribute data-i18n="example" to the relevant HTML tag and add  a
 // key 'example' with a value to each locale that needs to be localised below.
 var textReplacements = {
-    de: {
+    'de-DE': {
         'title': 'Generative Gestaltung',
         'intro': 'Diese Website ergänzt das Buch »Generative Gestaltung, Creative Coding im Web« (erschienen im Verlag Hermann Schmidt, 2018) und bietet direkten Zugriff auf alle Quellcodes der im Buch beschriebenen Programme.',
         'slide-book-store-link-herman-schmidt-verlag': 'Buch kaufen<br>@ Herman Schmidt Verlag',
@@ -20,7 +20,7 @@ var textReplacements = {
         'imprint-title': 'Impressum',
         'download-toc' : 'Inhaltsverzeichnis'
     },
-    en: {
+    'en-US': {
         'title': 'Generative Design',
         'intro': '<aside>👉 Generative Design: Visualize, Program, and Create with JavaScript in p5.js. Will be available in October 2018 from Princeton Architectural Press!</aside>Hello and welcome to Generative Design, Creative Coding on the Web. Here, you will find all of the sketches from the book and their associated code. Run the sketches directly in the browser with the p5.js-web-editor or locally on your machine by downloading the code package below.',
         'slide-book-store-link-herman-schmidt-verlag': 'Order now<br>@ Herman Schmidt Verlag',
@@ -52,8 +52,15 @@ function setLocale(e) {
         currentLocale = e.target.getAttribute('data-lang');
     }
 
-    // Default locale to 'en' if current locale does not match 'de'.
-    currentLocale = currentLocale !== 'de' ? 'en' : 'de';
+    // Default locale to 'en-US' if current locale does not match a German or Japanese language locale.
+    if (['de', 'de-DE', 'de-AT', 'de-CH', 'de-LU', 'de-LI', 'de-BE'].indexOf(currentLocale) !== -1) {
+        currentLocale = 'de-DE'
+    } else if (['jp', 'ja-JP'].indexOf(currentLocale) !== -1) {
+        window.location = 'http://www.bnn.co.jp/support/generativedesign_p5js/';
+        return false;
+    } else {
+        currentLocale = 'en-US';
+    }
 
     // Set document language
     document.documentElement.lang = currentLocale;
