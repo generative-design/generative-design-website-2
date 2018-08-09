@@ -54,8 +54,7 @@ header {
 	align-items: center;
 	color: #fff;
 }
-.title--fixed .title__text,
-.title--sketch .title__text {
+.title--fixed .title__text {
 	margin-right: 2em;
 	font-size: 1.5em;
 }
@@ -72,7 +71,8 @@ header {
 	width: 1.5em;
 	height: 1.5em;
 }
-.title--sketch .btn--link {
+.title--sketch .btn--link,
+.title--sketch .btn--previous {
 	margin: 0 1em 0 0;
 }
 .title--sketch .title__inner {
@@ -95,6 +95,7 @@ header {
 	display: flex;
 	font-weight: 700;
 	justify-content: flex-start;
+	align-items: center;
 }
 .title__nav.links > a:not(:first-of-type) {
 	margin-left: 1em;
@@ -311,7 +312,8 @@ a {
 }
 
 .btn--download,
-.btn--link {
+.btn--link,
+.btn--previous {
 	display: flex;
 	align-items: center;
 	font-weight: 700;
@@ -319,7 +321,8 @@ a {
 	white-space: nowrap;
 }
 .btn--link::before,
-.btn--download::before {
+.btn--download::before,
+.btn--previous::before {
 	content: url('arrow.svg');
 	min-width: 2em;
 	width: 2em;
@@ -327,6 +330,16 @@ a {
 }
 .btn--download::before {
 	transform: rotate(90deg);
+}
+.btn--previous {
+	color: #0fe976;
+	margin-right: 2em;
+}
+.btn--previous:hover {
+	color: #3c3c3b;
+}
+.btn--previous::before {
+	transform:  translateY(-10%) rotate(180deg);
 }
 
 iframe {
