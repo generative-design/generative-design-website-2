@@ -75,6 +75,9 @@ header {
 .title--sketch .btn--link {
 	margin: 0 1em 0 0;
 }
+.title--sketch .title__inner {
+	max-width: 100%;
+}
 
 .lang-switch {
 	margin-right: 1em;
