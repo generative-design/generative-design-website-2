@@ -295,6 +295,9 @@ a {
 	font-size: 1.8em;
 	line-height: 1.6em;
 }
+.intro aside a {
+	text-decoration: underline;
+}
 
 .contact-title {
 	margin: 1em 0.5rem 0.5em 0.5rem;
