@@ -121,7 +121,7 @@ var textReplacements = {
         'p-2-shape': 'P.2. Shape',
         'p-3-type': 'P.3. Type',
         'p-4-image': 'P.4. Image',
-        'm-1-random-and-noise': 'M.1. Random and noice',
+        'm-1-random-and-noise': 'M.1. Random and noise',
         'm-2-oscillation-figures': 'M.2. Oscillation figures',
         'm-5-data-trees': 'M.5. Data trees',
         'm-6-dynamic-data-structure': 'M.6. Dynamic data structure',
