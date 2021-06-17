@@ -1,0 +1,2 @@
+# Generatieve Gestaltung/Generative Design website v2
+The repository with the source for both the [landing page](http://www.generative-gestaltung.de/) and the website for the book [Generative Design: Creative Coding for the Web with JavaScript in p5.js](http://www.generative-gestaltung.de/2/) (the followup to the book [Generative Design: visualize, program and create with Processing](http://www.generative-gestaltung.de/1/)).
