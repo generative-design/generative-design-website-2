@@ -134,7 +134,7 @@ var textReplacements = {
                         <img src="img/header/en/180-181.jpg">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="http://www.papress.com/html/product.details.dna?isbn=9781616897581" target="_blank">Order now<br>@ Princeton Architectural Press</a>\
+                <a class="slide__link" href="https://www.amazon.com/gp/product/1616897589/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616897589&tag=generativeges-20&linkId=52b74a301a52c167f29d53e38485d0da" target="_blank">Order now<br>@ Amazon.com</a>\
             </div>'
         ),
         'slide-2': (
@@ -154,7 +154,7 @@ var textReplacements = {
                         <img src="img/header/en/240-241.jpg">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="http://www.papress.com/html/product.details.dna?isbn=9781616897581" target="_blank">Order now<br>@ Princeton Architectural Press</a>\
+                <a class="slide__link" href="https://www.amazon.com/gp/product/1616897589/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616897589&tag=generativeges-20&linkId=52b74a301a52c167f29d53e38485d0da" target="_blank">Order now<br>@ Amazon.com</a>\
             </div>'
         ),
         'slide-4': (
@@ -174,7 +174,7 @@ var textReplacements = {
                         <img src="img/header/en/178-179.jpg">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="http://www.papress.com/html/product.details.dna?isbn=9781616897581" target="_blank">Order now<br>@ Princeton Architectural Press</a>\
+                <a class="slide__link" href="https://www.amazon.com/gp/product/1616897589/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616897589&tag=generativeges-20&linkId=52b74a301a52c167f29d53e38485d0da" target="_blank">Order now<br>@ Amazon.com</a>\
             </div>'
         ),
         'slide-6': (
@@ -194,7 +194,7 @@ var textReplacements = {
                         <img src="img/header/en/26-27.jpg">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="http://www.papress.com/html/product.details.dna?isbn=9781616897581" target="_blank">Order now<br>@ Princeton Architectural Press</a>\
+                <a class="slide__link" href="https://www.amazon.com/gp/product/1616897589/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616897589&tag=generativeges-20&linkId=52b74a301a52c167f29d53e38485d0da" target="_blank">Order now<br>@ Amazon.com</a>\
             </div>'
         ),
         'slide-8': (
@@ -214,7 +214,7 @@ var textReplacements = {
                         <img src="img/header/en/184-185.jpg">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="http://www.papress.com/html/product.details.dna?isbn=9781616897581" target="_blank">Order now<br>@ Princeton Architectural Press</a>\
+                <a class="slide__link" href="https://www.amazon.com/gp/product/1616897589/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616897589&tag=generativeges-20&linkId=52b74a301a52c167f29d53e38485d0da" target="_blank">Order now<br>@ Amazon.com</a>\
             </div>'
         ),
         'slide-10': (
@@ -234,7 +234,7 @@ var textReplacements = {
                         <img src="img/header/en/206-207.jpg">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="http://www.papress.com/html/product.details.dna?isbn=9781616897581" target="_blank">Order now<br>@ Princeton Architectural Press</a>\
+                <a class="slide__link" href="https://www.amazon.com/gp/product/1616897589/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1616897589&tag=generativeges-20&linkId=52b74a301a52c167f29d53e38485d0da" target="_blank">Order now<br>@ Amazon.com</a>\
             </div>'
         ),
         'slide-12': (
