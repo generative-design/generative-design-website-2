@@ -34,7 +34,7 @@ var textReplacements = {
                         <img src="img/header/GG_Preview_40-41.png" alt="GG_Preview_40-41">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="https://www.amazon.de/Generative-Gestaltung-Programmieren-Visualisieren-Javascript/dp/3874399028/ref=as_sl_pc_tf_til?tag=genegestwebsz-21&linkCode=w00&linkId=f6cd35873d742268a4a12132fa453301&creativeASIN=3874399028" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
+                <a class="slide__link" href="https://amzn.to/3XN6AOk" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
             </div>'
         ),
         'slide-3': (
@@ -50,7 +50,7 @@ var textReplacements = {
                         <img src="img/header/GG_Preview_186-187.png" alt="GG_Preview_186-187">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="https://www.amazon.de/Generative-Gestaltung-Programmieren-Visualisieren-Javascript/dp/3874399028/ref=as_sl_pc_tf_til?tag=genegestwebsz-21&linkCode=w00&linkId=f6cd35873d742268a4a12132fa453301&creativeASIN=3874399028" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
+                <a class="slide__link" href="https://amzn.to/3XN6AOk" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
             </div>'
         ),
         'slide-5': (
@@ -62,7 +62,7 @@ var textReplacements = {
         'slide-6': (
             '<div class="slide__inner">\
                 <div class="slide__background" style="background-image:url(img/header/9783874399029_Generative-Gestaltung_Creative-Coding-im-Web5.jpg)"></div>\
-                <a class="slide__link" href="https://www.amazon.de/Generative-Gestaltung-Programmieren-Visualisieren-Javascript/dp/3874399028/ref=as_sl_pc_tf_til?tag=genegestwebsz-21&linkCode=w00&linkId=f6cd35873d742268a4a12132fa453301&creativeASIN=3874399028" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
+                <a class="slide__link" href="https://amzn.to/3XN6AOk" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
             </div>'
         ),
         'slide-7': (
@@ -78,7 +78,7 @@ var textReplacements = {
         'slide-8': (
             '<div class="slide__inner">\
                 <div class="slide__background" style="background-image:url(img/header/9783874399029_Generative-Gestaltung_Creative-Coding-im-Web3.jpg)"></div>\
-                <a class="slide__link" href="https://www.amazon.de/Generative-Gestaltung-Programmieren-Visualisieren-Javascript/dp/3874399028/ref=as_sl_pc_tf_til?tag=genegestwebsz-21&linkCode=w00&linkId=f6cd35873d742268a4a12132fa453301&creativeASIN=3874399028" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
+                <a class="slide__link" href="https://amzn.to/3XN6AOk" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
             </div>'
         ),
         'slide-9': (
@@ -94,7 +94,7 @@ var textReplacements = {
                         <img src="img/header/GG_Preview_148-149.png" alt="GG_Preview_148-149">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="https://www.amazon.de/Generative-Gestaltung-Programmieren-Visualisieren-Javascript/dp/3874399028/ref=as_sl_pc_tf_til?tag=genegestwebsz-21&linkCode=w00&linkId=f6cd35873d742268a4a12132fa453301&creativeASIN=3874399028" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
+                <a class="slide__link" href="https://amzn.to/3XN6AOk" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
             </div>'
         ),
         'slide-11': (
@@ -110,7 +110,7 @@ var textReplacements = {
                         <img src="img/header/GG_Preview_222-223.png" alt="GG_Preview_222-223">\
                     </div>\
                 </div>\
-                <a class="slide__link" href="https://www.amazon.de/Generative-Gestaltung-Programmieren-Visualisieren-Javascript/dp/3874399028/ref=as_sl_pc_tf_til?tag=genegestwebsz-21&linkCode=w00&linkId=f6cd35873d742268a4a12132fa453301&creativeASIN=3874399028" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
+                <a class="slide__link" href="https://amzn.to/3XN6AOk" target="_blank">Buch kaufen<br>@ Amazon Deutschland</a>\
             </div>'
         )
     },
